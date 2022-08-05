@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="./notif.js"></script> -->
+    <title>Document</title>
+  </head>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .notif {
+      /* display: none; */
+      margin-top: -100px;
+      overflow: hidden;
+      transition: margin-top 0.7s ease-in-out;
+
+      width: 100%;
+      background-color: #1ba817;
+      color: #fff;
+      font-size: 24px;
+      font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
+      text-align: center;
+      height: 100px;
+    }
+    .notif > .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .slide-down {
+      margin-top: 0 !important;
+    }
+
+    .mem-notif {
+      /* background-color: rgb(36, 36, 203); */
+      /* background: rgb(255, 0, 0);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 25%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(0, 0, 255, 1) 75%
+      ); */
+      color: #FFF !important;
+      /* -webkit-text-stroke-width: 1.5px;
+      -webkit-text-stroke-color: black; */
+
+      background: rgb(255, 0, 0);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 25%,
+        rgba(1, 1, 170, 1) 75%
+      );
+    }
+
+    @media (min-width: 768px) {
+      .notif {
+        font-size: 24px;
+      }
+    }
+  </style>
+  <body>
+    <div class="notif mem-notif" id="banner2">
+      <div class="wrapper">
+        <strong>Excel will be closed in remembrance of those who served</strong>
+        <div><strong>Monday, May 30</strong></div>
+      </div>
+    </div>
+    <!-- <div class="notif" id="banner1">
+      <div class="wrapper">
+        <strong
+          >The Midtown Branch office will be closed for training May 24.</strong
+        >
+      </div>
+    </div> -->
+  </body>
+</html>
