@@ -11,6 +11,22 @@
   color: #fff;
 }
 
+.form-inline-tablet {
+  color: #fff;
+}
+
+/* Notification Bar */
+
+.wpfront-message > p {
+  font-size: 14px;
+}
+
+@media (min-width: 890px) {
+  .wpfront-message > p {
+    font-size: 24px;
+  }
+}
+
 /* Utility Buttons */
 .index-btn {
   font-size: 16px;
@@ -131,7 +147,7 @@
 }
 
 /* Rates Table */
-.excelRateTable{
+.excelRateTable {
   color: #000;
 }
 
