@@ -12,7 +12,7 @@ document.addEventListener(
       document.getElementById("banner2").classList.add("slide-down");
     }
 
-    const timeFilter = new Date("May 17, 2022 01:00:00 AM").getTime(),
+    const timeFilter = new Date("May 10, 2022 01:00:00 AM").getTime(),
       currentTime = new Date().getTime(),
       subtractMilliSecondsValue = timeFilter - currentTime;
     setTimeout(timeForBanner, subtractMilliSecondsValue);

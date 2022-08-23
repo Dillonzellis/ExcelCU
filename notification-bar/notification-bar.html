@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <script src="./notif.js"></script> -->
+    <script src="./notif.js"></script>
     <title>Document</title>
   </head>
   <style>
@@ -27,7 +27,15 @@
       font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
       text-align: center;
       height: 100px;
+      font-size: 14px;
     }
+
+    @media (min-width: 890px) {
+      .notif {
+        font-size: 24px;
+      }
+    }
+
     .notif > .wrapper {
       display: flex;
       justify-content: center;
@@ -40,46 +48,60 @@
       margin-top: 0 !important;
     }
 
-    .mem-notif {
-      /* background-color: rgb(36, 36, 203); */
-      /* background: rgb(255, 0, 0);
+    .item1 {
+      background: rgb(8, 212, 22);
       background: linear-gradient(
-        90deg,
-        rgba(255, 0, 0, 1) 25%,
-        rgba(255, 255, 255, 1) 50%,
-        rgba(0, 0, 255, 1) 75%
-      ); */
-      color: #FFF !important;
-      /* -webkit-text-stroke-width: 1.5px;
-      -webkit-text-stroke-color: black; */
-
-      background: rgb(255, 0, 0);
-      background: linear-gradient(
-        90deg,
-        rgba(255, 0, 0, 1) 25%,
-        rgba(1, 1, 170, 1) 75%
+        180deg,
+        rgba(8, 212, 22, 1) 0%,
+        rgba(26, 93, 108, 1) 72%,
+        rgba(26, 93, 108, 1) 100%
       );
     }
 
-    @media (min-width: 768px) {
-      .notif {
-        font-size: 24px;
-      }
+    .item2 {
+      background: rgb(218, 44, 0);
+      background: -moz-linear-gradient(
+        180deg,
+        rgba(218, 44, 0, 1) 0%,
+        rgba(218, 44, 0, 1) 73%,
+        rgba(255, 255, 255, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        180deg,
+        rgba(218, 44, 0, 1) 0%,
+        rgba(218, 44, 0, 1) 73%,
+        rgba(255, 255, 255, 1) 100%
+      );
+      background: linear-gradient(
+        180deg,
+        rgba(218, 44, 0, 1) 0%,
+        rgba(218, 44, 0, 1) 73%,
+        rgba(255, 255, 255, 1) 100%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#da2c00",endColorstr="#ffffff",GradientType=1);
+    }
+
+    .item2 strong {
+      color: rgb(40, 40, 253);
     }
   </style>
   <body>
-    <div class="notif mem-notif" id="banner2">
-      <div class="wrapper">
-        <strong>Excel will be closed in remembrance of those who served</strong>
-        <div><strong>Monday, May 30</strong></div>
-      </div>
-    </div>
-    <!-- <div class="notif" id="banner1">
+    <div class="notif item1" id="banner2">
       <div class="wrapper">
         <strong
-          >The Midtown Branch office will be closed for training May 24.</strong
+          >NEW OFFER! 18-month Share Certificates with rates as high as 2.25%
+          APY*.
+        </strong>
+        <div><strong>MOVE YOUR CDs to EXCEL AND EARN BIG!</strong></div>
+      </div>
+    </div>
+    <div class="notif item2" id="banner1">
+      <div class="wrapper">
+        <strong
+          >Our offices will be closed Labor Day, September 5. The Midtown will
+          also be closed August 30.</strong
         >
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
