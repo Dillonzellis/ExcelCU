@@ -4,17 +4,6 @@
   justify-content: space-evenly;
 }
 
-.mobile-form-inline .btn {
-  background-color: #38b04c;
-  padding: 0.6em;
-  border: none;
-  color: #fff;
-}
-
-.form-inline-tablet {
-  color: #fff;
-}
-
 /* Notification Bar */
 
 /* .wpfront-message > p {
@@ -243,6 +232,33 @@
   > div.et_pb_button_module_wrapper.et_pb_button_0_wrapper.et_pb_button_alignment_center.et_pb_module
   > a {
   border: 2px solid #38b04c;
+}
+
+/* Online Banking Login */
+
+.mobile-form-inline .btn {
+  background-color: #38b04c;
+  padding: 0.6em;
+  border: none;
+  color: #fff;
+}
+
+.login-area{
+  font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 1rem;
+}
+
+.form-inline-tablet{
+  font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.form-inline-tablet .btn {
+  background-color: #38b04c;
+  padding: 0.6em;
+  border: none;
+  color: #fff;
 }
 
 /* */
