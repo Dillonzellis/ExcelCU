@@ -61,17 +61,11 @@
 }
 
 .item2 {
-  background: rgb(218, 44, 0);
-  /* background: linear-gradient(
-    180deg,
-    rgba(218, 44, 0, 1) 0%,
-    rgba(218, 44, 0, 1) 28%,
-    rgba(255, 255, 255, 1) 100%
-  ); */
+  background: rgb(29, 157, 216);
 }
 
 .item2 strong {
-  color: rgb(40, 40, 253);
+  color: #fff;
 }
 
 /* Utility Buttons */
@@ -243,12 +237,12 @@
   color: #fff;
 }
 
-.login-area{
+.login-area {
   font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
   font-size: 1rem;
 }
 
-.form-inline-tablet{
+.form-inline-tablet {
   font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
   font-size: 1rem;
   color: #fff;
