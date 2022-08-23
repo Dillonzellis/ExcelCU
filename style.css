@@ -72,7 +72,17 @@
 }
 
 .item2 {
-  background-color: #aec902;
+  background: rgb(218, 44, 0);
+  /* background: linear-gradient(
+    180deg,
+    rgba(218, 44, 0, 1) 0%,
+    rgba(218, 44, 0, 1) 28%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
+}
+
+.item2 strong {
+  color: rgb(40, 40, 253);
 }
 
 /* Utility Buttons */
