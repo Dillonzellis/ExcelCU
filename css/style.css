@@ -115,11 +115,11 @@
 }
 
 .widget_nav_menu .index-btn:hover {
-  background-color: #38b04c !important;
+  background-color: #43d55b !important;
 }
 
 .widget_nav_menu .index-btn > a {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 /* Inner CTA */
