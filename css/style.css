@@ -52,16 +52,16 @@
 
 .item1 {
   background: rgb(8, 212, 22);
-  /* background: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgba(8, 212, 22, 1) 0%,
     rgba(26, 93, 108, 1) 72%,
     rgba(26, 93, 108, 1) 100%
-  ); */
+  );
 }
 
 .item2 {
-  background-color: #2c9eb8;
+  background: rgb(29, 157, 216);
 }
 
 .item2 strong {
@@ -110,7 +110,7 @@
 }
 
 /* Widget Fix */
-/* .widget_nav_menu .index-btn {
+.widget_nav_menu .index-btn {
   background-color: #38b04c !important;
 }
 
@@ -119,8 +119,8 @@
 }
 
 .widget_nav_menu .index-btn > a {
-  color: #fff !important;
-} */
+  color: #000 !important;
+}
 
 /* Inner CTA */
 .et_pb_image_0 {
@@ -237,12 +237,12 @@
   color: #fff;
 }
 
-.login-area{
+.login-area {
   font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
   font-size: 1rem;
 }
 
-.form-inline-tablet{
+.form-inline-tablet {
   font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
   font-size: 1rem;
   color: #fff;
