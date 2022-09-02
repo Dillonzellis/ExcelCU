@@ -115,7 +115,7 @@
 }
 
 .widget_nav_menu .index-btn:hover {
-  background-color: #65d177 !important;
+  background-color: #38b04c !important;
 }
 
 .widget_nav_menu .index-btn > a {
@@ -190,6 +190,13 @@
 /* Rates Table */
 .excelRateTable {
   color: #000;
+}
+
+.excelRateTable thead {
+  background-color: #1a5d6c;
+}
+.excelRateTable thead th {
+  color: #fff !important;
 }
 
 #post-1042
