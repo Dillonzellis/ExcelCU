@@ -17,7 +17,7 @@
 } */
 
 .notif {
-  /* display: none; */
+  display: none;
   margin-top: -100px;
   overflow: hidden;
   transition: margin-top 0.7s ease-in-out;
