@@ -13,12 +13,19 @@
   --fs-450: 1.25rem;
   --fs-500: 1.5rem;
 
+  --ff-primary: 'Lexend Deca', Helvetica, Arial, Lucida, sans-serif;
+
 
 }
 
-/* Utiliy */
+/* Utility */
 
-.mb-400{
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.mb-400 {
   margin-bottom: 1rem;
 }
 
@@ -62,6 +69,12 @@
 .inner-body-primary-700 {
   color: var(--clr-text-primary-700);
   font-size: var(--fs-400);
+  font-family: var(--ff-primary) !important;
+}
+
+.inner-side-widget-menu a {
+  color: var(--clr-text-primary-100);
+
 }
 
 /* Mega Menu Fixes */
@@ -222,7 +235,7 @@
   margin-bottom: 1rem;
 }
 
-.checkmark-row>img {
+.checkmark-row img {
   margin-right: 2em;
 }
 
@@ -312,4 +325,31 @@
   font-size: 1.5rem;
 }
 
-/* */
+/* Holiday Loan Page */
+
+
+/* .holiday-ul {
+  list-style: url("https://www.excelfcu.org/wp-content/uploads/2022/09/holiday-li-icon.png");
+
+  margin-left: 2rem;
+}
+
+.holiday-ul>li::marker {
+  width: 1rem;
+} */
+
+.holiday-icon-wrapper {
+ flex-direction: column;
+ --gap:2rem
+}
+
+.holiday-item{
+  --gap: 2rem;
+  align-items: center;
+}
+
+.holiday-icon-wrapper>img {
+  height: 2rem;
+}
+
+.holiday-icon-wrapper p {}
