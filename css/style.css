@@ -340,12 +340,14 @@
 
 .holiday-icon-wrapper {
  flex-direction: column;
- --gap:2rem
+ --gap:2rem;
+ font-size: var(--fs-500);
 }
 
 .holiday-item{
   --gap: 2rem;
   align-items: center;
+  margin-inline-start: 3rem;
 }
 
 .holiday-icon-wrapper>img {
