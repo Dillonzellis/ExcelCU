@@ -96,8 +96,8 @@
 } */
 
 .notif {
-  display: none;
-  margin-top: -100px;
+  /* display: none; */
+  /* margin-top: -100px; */
   overflow: hidden;
   transition: margin-top 0.7s ease-in-out;
 
@@ -139,7 +139,8 @@
 }
 
 .item2 {
-  background: rgb(17, 77, 106);
+  background: #1a5d6c;
+  border-bottom: 2px solid white;
 }
 
 .item2 strong {
