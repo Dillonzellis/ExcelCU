@@ -1,0 +1,358 @@
+/* Variables */
+
+:root {
+    font-size: 16px !important;
+  
+    --clr-primary-100: #fff;
+    --clr-primary-400: #1a5d6c;
+  
+    --clr-text-primary-100: #fff;
+    --clr-text-primary-700: #000;
+  
+    --fs-400: 1rem;
+    --fs-450: 1.25rem;
+    --fs-500: 1.5rem;
+  
+    --ff-primary: 'Lexend Deca', Helvetica, Arial, Lucida, sans-serif;
+  
+  
+  }
+  
+  /* Utility */
+  
+  .flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+  }
+  
+  .mb-400 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Headings */
+  .inner-primary-header-400 {
+    color: var(--clr-text-primary-100);
+    background-color: var(--clr-primary-400);
+    padding: 1.5rem;
+  }
+  
+  
+  
+  /* Accordion */
+  
+  /* Accordion Background Color */
+  .sp-easy-accordion .sp-ea-single {
+    background-color: var(--clr-primary-400) !important;
+  }
+  
+  /* Accordion expanding icon */
+  .ea-expand-icon {
+    color: var(--clr-primary-100) !important;
+  }
+  
+  .accordion-heading {
+    font-size: var(--fs-450);
+    color: var(--clr-text-primary-700);
+  }
+  
+  .accordion-heading-700 {
+    font-size: var(--fs-500);
+    font-weight: 600;
+  }
+  
+  .accordion-ul>li {
+    font-size: var(--fs-400) !important;
+    color: var(--clr-text-primary-700) !important;
+  }
+  
+  /* Inner Pages */
+  .inner-body-primary-700 {
+    color: var(--clr-text-primary-700);
+    font-size: var(--fs-400);
+    font-family: var(--ff-primary) !important;
+  }
+  
+  .inner-side-widget-menu a {
+    color: var(--clr-text-primary-100);
+  
+  }
+  
+  /* Mega Menu Fixes */
+  #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  /* Notification Bar */
+  
+  /* .wpfront-message > p {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 890px) {
+    .wpfront-message > p {
+      font-size: 24px;
+    }
+  } */
+  
+  .notif {
+    /* display: none; */
+    /* margin-top: -100px; */
+    overflow: hidden;
+    transition: margin-top 0.7s ease-in-out;
+  
+    width: 100%;
+    background-color: #1ba817;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
+    text-align: center;
+    height: 100px;
+    font-size: 14px;
+  }
+  
+  @media (min-width: 890px) {
+    .notif {
+      font-size: 24px;
+    }
+  }
+  
+  .notif>.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .slide-down {
+    margin-top: 0 !important;
+    transition: margin-top 0.7s ease-in-out;
+  }
+  
+  .item1 {
+    background: rgb(26,93,108);
+    background: -moz-linear-gradient(180deg, rgba(26,93,108,1) 17%, rgba(255,154,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(26,93,108,1) 17%, rgba(255,154,0,1) 100%);
+    background: linear-gradient(180deg, rgba(26,93,108,1) 17%, rgba(255,154,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a5d6c",endColorstr="#ff9a00",GradientType=1);
+  }
+  
+  .item2 {
+    background: #1a5d6c;
+    border-bottom: 2px solid white;
+  }
+  
+  .item2 strong {
+    color: #fff;
+  }
+  
+  /* Utility Buttons */
+  .index-btn {
+    font-size: 16px;
+    padding: 16px 25px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #7eadb5;
+    background: #ffffff;
+    margin-bottom: 4px !important;
+  
+    text-transform: capitalize;
+  }
+  
+  .rates-btn {
+    font-size: 16px;
+    padding: 16px 25px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #1a5d6c;
+  }
+  
+  .rates-btn:hover {
+    background-color: #298ca2;
+  }
+  
+  .inner-btn {
+    background-color: #1a5d6c;
+    padding: 0.5em 1em;
+    font-size: 1.25rem;
+    color: #fff;
+    border-radius: 3px;
+  }
+  
+  .inner-btn:hover {
+    background-color: #298ca2;
+  }
+  
+  .rates-btn>a {
+    color: #fff !important;
+  }
+  
+  /* Widget Fix */
+  .widget_nav_menu .index-btn {
+    background-color: #38b04c !important;
+  }
+  
+  .widget_nav_menu .index-btn:hover {
+    background-color: #43d55b !important;
+  }
+  
+  .widget_nav_menu .index-btn>a {
+    color: #fff !important;
+  }
+  
+  /* Inner CTA */
+  .et_pb_image_0 {
+    background-color: #38b04c !important;
+  }
+  
+  .et_pb_cta_0.et_pb_promo {
+    background-color: #38b04c !important;
+  }
+  
+  .et_pb_image_1 {
+    background-color: #38b04c !important;
+  }
+  
+  .et_pb_cta_1.et_pb_promo {
+    background-color: #38b04c !important;
+  }
+  
+  /* Accordion */
+  .sp-easy-accordion h3 {
+    padding-bottom: 0 !important;
+  }
+  
+  .sp-easy-accordion .ea-header a {
+    color: #fff !important;
+  }
+  
+  /* Checkmark Rows */
+  .checkmark-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .checkmark-row img {
+    margin-right: 2em;
+  }
+  
+  .checkmark-row>p {
+    color: #000 !important;
+    font-weight: 500 !important;
+    font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1rem;
+    padding-right: 1rem;
+  }
+  
+  @media (min-width: 50em) {
+    .checkmark-row>p {
+      padding-right: 0;
+      font-size: 1.25rem;
+    }
+  }
+  
+  .insurance-table a {
+    font-weight: 500 !important;
+    font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1rem;
+    color: #7eadb5 !important;
+  }
+  
+  @media (min-width: 50em) {
+    .insurance-table a {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Rates Table */
+  .excelRateTable {
+    color: #000;
+  }
+  
+  .excelRateTable thead {
+    background-color: #1a5d6c;
+  }
+  
+  .excelRateTable thead th {
+    color: #fff !important;
+  }
+  
+  #post-1042>div>div>div>div.et_pb_section.et_pb_section_1.et_section_regular>div>div.et_pb_column.et_pb_column_2_3.et_pb_column_2.et_pb_css_mix_blend_mode_passthrough.et-last-child>div.et_pb_with_border.et_pb_module.et_pb_text.et_pb_text_1.et_pb_text_align_left.et_pb_bg_layout_light>div>h2 {
+    font-size: 20px !important;
+  }
+  
+  #post-1042>div>div>div>div.et_pb_section.et_pb_section_1.et_section_regular>div>div.et_pb_column.et_pb_column_2_3.et_pb_column_2.et_pb_css_mix_blend_mode_passthrough.et-last-child>div.et_pb_with_border.et_pb_module.et_pb_text.et_pb_text_1.et_pb_text_align_left.et_pb_bg_layout_light {
+    border: 2px solid #38b04c;
+  }
+  
+  #post-1042>div>div>div>div.et_pb_section.et_pb_section_1.et_section_regular>div>div.et_pb_column.et_pb_column_2_3.et_pb_column_2.et_pb_css_mix_blend_mode_passthrough.et-last-child>div.et_pb_button_module_wrapper.et_pb_button_0_wrapper.et_pb_button_alignment_center.et_pb_module>a {
+    border: 2px solid #38b04c;
+  }
+  
+  /* Online Banking Login */
+  
+  .mobile-form-inline .btn {
+    background-color: #38b04c;
+    padding: 0.6em;
+    border: none;
+    color: #fff;
+  }
+  
+  .login-area {
+    font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1rem;
+  }
+  
+  .form-inline-tablet {
+    font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .form-inline-tablet .btn {
+    background-color: #38b04c;
+    padding: 0.6em;
+    border: none;
+    color: #fff;
+  }
+  
+  .accent-rate {
+    color: #38b04c;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  /* Holiday Loan Page */
+  
+  
+  /* .holiday-ul {
+    list-style: url("https://www.excelfcu.org/wp-content/uploads/2022/09/holiday-li-icon.png");
+  
+    margin-left: 2rem;
+  }
+  
+  .holiday-ul>li::marker {
+    width: 1rem;
+  } */
+  
+  .holiday-icon-wrapper {
+   flex-direction: column;
+   --gap:2rem;
+   font-size: var(--fs-500);
+  }
+  
+  .holiday-item{
+    --gap: 2rem;
+    align-items: center;
+    margin-inline-start: 3rem;
+  }
+  
+  .holiday-icon-wrapper>img {
+    height: 2rem;
+  }
+  
+  .holiday-icon-wrapper p {}
