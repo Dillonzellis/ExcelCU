@@ -3,6 +3,10 @@
 
 // Font Sizes
 
+.fs-400{
+  font-size: $fs-400;
+}
+
 // .fs-425 {
 //   font-size: $fs-425;
 // }
@@ -11,19 +15,24 @@
 //   font-size: $fs-450;
 // }
 
-// .fs-450 {
-//   font-size: $fs-450;
-// }
+.fs-475 {
+  font-size: $fs-475 !important;
+}
 
-// .fs-475 {
-//   font-size: $fs-475;
-// }
+.fs-500 {
+  font-size: $fs-500 !important;
+}
+
 
 // .fs-625 {
 //   font-size: $fs-625;
 // }
 
 // Weights
+
+.fw-regular{
+  font-weight: $fw-regular;
+}
 
 .fw-medium {
   font-weight: $fw-medium;
@@ -51,9 +60,9 @@
 //   color: $clr-neutral-700;
 // }
 
-// .clr-neutral-900 {
-//   color: $clr-neutral-900;
-// }
+.clr-neutral-900 {
+  color: $clr-neutral-900;
+}
 
 // Font Family
 
