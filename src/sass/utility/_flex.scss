@@ -1,10 +1,12 @@
 // @use '/src/sass/abstracts/'as *;
 // @use '/src/sass/base/' as *;
 
-// .flex {
-//     display: flex;
-//     gap: var(--gap, 1rem);
-//   }
+.flex {
+    display: flex;
+    // gap: var(--gap, 1rem);
+  }
+
+
   
   // .flex-md{
   //   @include breakpoint(md) {
@@ -93,17 +95,17 @@
   //   }
   // }
   
-//   .j-center{
-//     justify-content: center;
-//   }
+  .j-center{
+    justify-content: center;
+  }
 
 //   .j-even{
 //     justify-content: space-evenly;
 //   }
   
-//   .a-items-center{
-//     align-items: center;
-//   }
+  .a-items-center{
+    align-items: center;
+  }
   
   // .a-items-center-lg{
   //   @include breakpoint(lg) {

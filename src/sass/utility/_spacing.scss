@@ -1,8 +1,25 @@
+@use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/'as *;
+
 // paddings
+
+.p-400{
+    padding: 1rem;
+}
+.py-200{
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    @include breakpoint(md){
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+}
 
 .px-450 {
     padding-inline: 1.5rem;
 }
+
+
 
 .pb-400 {
     padding-bottom: 1rem;

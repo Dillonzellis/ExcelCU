@@ -1,0 +1,10 @@
+@use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/'as *;
+
+.sp-easy-accordion{
+    .ea-body{
+        color: $clr-neutral-900 !important;
+        font-size: $fs-400 !important;
+        font-family: $ff-primary;
+    }
+}

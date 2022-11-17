@@ -1,0 +1,15 @@
+@use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/'as *;
+
+.img-bd {
+    border-radius: 6px;
+    img{
+        border-radius: 6px;
+    }
+}
+
+.img-shadow {
+    box-shadow: -1px 4px 11px -3px rgba(26, 92, 107, 0.5);
+    -webkit-box-shadow: -1px 4px 11px -3px rgba(26, 92, 107, 0.5);
+    -moz-box-shadow: -1px 4px 11px -3px rgba(26, 92, 107, 0.5);
+}
