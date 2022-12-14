@@ -1,5 +1,8 @@
 /* Notification Bar */
 
+@use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/'as *;
+
 /* .wpfront-message > p {
     font-size: 14px;
   }
@@ -83,4 +86,14 @@
 
 .item2 strong {
   color: #fff;
+}
+
+.bgc-red{
+  background-color: hsl(0, 100%, 34%);
+}
+
+.notif{
+  small{
+    font-size: $fs-400;
+  }
 }
