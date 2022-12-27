@@ -1,7 +1,7 @@
 /* Notification Bar */
 
-@use '/src/sass/abstracts/'as *;
-@use '/src/sass/base/'as *;
+@use '/src/sass/abstracts/' as *;
+@use '/src/sass/base/' as *;
 
 /* .wpfront-message > p {
     font-size: 14px;
@@ -23,26 +23,25 @@
   overflow: hidden;
   transition: margin-top 0.7s ease-in-out;
 
-  width: 100%;
+  // width: 100%;
   background-color: #1ba817;
   color: #fff;
-  font-size: 24px;
   font-family: "Lexend Deca", Helvetica, Arial, Lucida, sans-serif;
   text-align: center;
 
-  font-size: 16px;
-  padding: 1rem 0.25rem;
+  font-size: 1rem;
+  padding: 1.25rem;
 }
 
 @media (min-width: 890px) {
   .notif {
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 2rem 1rem;
     // height: 100px;
   }
 }
 
-.notif > .wrapper {
+.notif>.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,27 +57,22 @@
 
 .item1 {
   background: rgb(26, 93, 108);
-  background: -moz-linear-gradient(
-    180deg,
-    rgba(26, 93, 108, 1) 17%,
-    rgba(255, 154, 0, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(26, 93, 108, 1) 17%,
-    rgba(255, 154, 0, 1) 100%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(26, 93, 108, 1) 17%,
-    rgba(255, 154, 0, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a5d6c",endColorstr="#ff9a00",GradientType=1);
+  background: -moz-linear-gradient(180deg,
+      rgba(26, 93, 108, 1) 17%,
+      rgba(255, 154, 0, 1) 100%);
+  background: -webkit-linear-gradient(180deg,
+      rgba(26, 93, 108, 1) 17%,
+      rgba(255, 154, 0, 1) 100%);
+  background: linear-gradient(180deg,
+      rgba(26, 93, 108, 1) 17%,
+      rgba(255, 154, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a5d6c", endColorstr="#ff9a00", GradientType=1);
 }
 
 .item2 {
   background: #1a5d6c;
   border-bottom: 2px solid white;
+
   a {
     color: rgba(255, 154, 0, 1);
   }
@@ -88,12 +82,12 @@
   color: #fff;
 }
 
-.bgc-red{
+.bgc-red {
   background-color: hsl(0, 100%, 34%);
 }
 
-.notif{
-  small{
+.notif {
+  small {
     font-size: $fs-400;
   }
 }

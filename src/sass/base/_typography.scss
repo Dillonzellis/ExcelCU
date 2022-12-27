@@ -1,5 +1,5 @@
-@use '/src/sass/abstracts/functions'as f;
-@use '/src/sass/abstracts/breakpoints'as *;
+@use '/src/sass/abstracts/functions' as f;
+@use '/src/sass/abstracts/breakpoints' as *;
 
 :root {
 
@@ -19,20 +19,22 @@
    // --fs-675: #{f.rem(24)};
    //    --fs-700: #{f.rem(24)};
 
-      @include breakpoint(md) {
-         --fs-600: #{f.rem(32)};
-         // --fs-650: #{f.rem(32)};
-         // --fs-675: #{f.rem(48)};
-         // --fs-700: #{f.rem(48)};
-      }
+   @include breakpoint(md) {
+      --fs-450: #{f.rem(30)};
+      --fs-600: #{f.rem(32)};
+      // --fs-650: #{f.rem(32)};
+      // --fs-675: #{f.rem(48)};
+      // --fs-700: #{f.rem(48)};
+   }
 
-      @include breakpoint(lg) {
-         --fs-600: #{f.rem(40)};
-         // --fs-625: #{f.rem(32)};
-         // --fs-650: #{f.rem(40)};
-         // --fs-675: #{f.rem(60)};
-         // --fs-700: #{f.rem(60)};
-      }
+   @include breakpoint(lg) {
+
+      --fs-600: #{f.rem(40)};
+      // --fs-625: #{f.rem(32)};
+      // --fs-650: #{f.rem(40)};
+      // --fs-675: #{f.rem(60)};
+      // --fs-700: #{f.rem(60)};
+   }
 }
 
 // Font Sizes
@@ -52,10 +54,10 @@ $fs-600: var(--fs-600);
 // Font Family
 
 $ff-primary: 'Lexend Deca',
-Helvetica,
-Arial,
-Lucida,
-sans-serif;
+   Helvetica,
+   Arial,
+   Lucida,
+   sans-serif;
 // $ff-accent: 'Raleway', sans-serif;
 
 // Font Weights
