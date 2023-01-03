@@ -57,25 +57,25 @@
 
 .item1 {
   background: rgb(26, 93, 108);
-  background: -moz-linear-gradient(180deg,
-      rgba(26, 93, 108, 1) 17%,
-      rgba(255, 154, 0, 1) 100%);
-  background: -webkit-linear-gradient(180deg,
-      rgba(26, 93, 108, 1) 17%,
-      rgba(255, 154, 0, 1) 100%);
-  background: linear-gradient(180deg,
-      rgba(26, 93, 108, 1) 17%,
-      rgba(255, 154, 0, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a5d6c", endColorstr="#ff9a00", GradientType=1);
+  // background: -moz-linear-gradient(180deg,
+  //     rgba(26, 93, 108, 1) 17%,
+  //     rgba(255, 154, 0, 1) 100%);
+  // background: -webkit-linear-gradient(180deg,
+  //     rgba(26, 93, 108, 1) 17%,
+  //     rgba(255, 154, 0, 1) 100%);
+  // background: linear-gradient(180deg,
+  //     rgba(26, 93, 108, 1) 17%,
+  //     rgba(255, 154, 0, 1) 100%);
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a5d6c", endColorstr="#ff9a00", GradientType=1);
 }
 
 .item2 {
   background: #1a5d6c;
-  border-bottom: 2px solid white;
+  // border-bottom: 2px solid white;
 
-  a {
-    color: rgba(255, 154, 0, 1);
-  }
+  // a {
+  //   color: rgba(255, 154, 0, 1);
+  // }
 }
 
 .item2 strong {
