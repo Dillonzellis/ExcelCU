@@ -1,27 +1,48 @@
-@use '/src/sass/abstracts/'as *;
+@use "/src/sass/abstracts/" as *;
 // @use '/src/sass/base/' as *;
 
-
+// BACKGROUND COLORS
+// PRIMARY
 // .bgc-primary-300{
 //     background-color: $clr-primary-300;
 //   }
-  
-  .bgc-primary-400{
-    background-color: $clr-primary-400;
-  }
-  
-  .bgc-accent-400{
-    background-color: $clr-accent-400;
-  }
-  
-  // .bgc-neutral-400{
-  //   background-color: $clr-neutral-400;
-  // }
 
-  // .bgc-neutral-700{
-  //   background-color: $clr-neutral-700;
-  // }
+.bgc-primary-400 {
+  background-color: $clr-primary-400;
+}
 
-  // .bgc-primary-gradient{
-  //   background: linear-gradient(359.28deg, #1A4789 11.87%, #000000 194.74%);
-  // }
+// ACCENT
+.bgc-accent-400 {
+  background-color: $clr-accent-400;
+}
+
+// NEUTRAL
+.bgc-neutral-100 {
+  background-color: $clr-neutral-100;
+}
+
+// GRADIENTS
+.widget-gradient {
+  background: linear-gradient(151deg,$clr-primary-400 11.87%,$clr-accent-400 194.74%);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+// .bgc-neutral-400{
+//   background-color: $clr-neutral-400;
+// }
+
+// .bgc-neutral-700{
+//   background-color: $clr-neutral-700;
+// }
+
+// .bgc-primary-gradient{
+//   background: linear-gradient(359.28deg, #1A4789 11.87%, #000000 194.74%);
+// }
+
+// TEXT COLORS
+.text-neutral-100{
+  color: $clr-neutral-100;
+}
