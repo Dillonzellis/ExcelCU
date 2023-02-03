@@ -1,4 +1,4 @@
-@use '/src/sass/abstracts/'as *;
+@use '/src/sass/abstracts/' as *;
 @use '/src/sass/base/' as *;
 
 
@@ -20,10 +20,13 @@
 }
 
 .container-sm {
-  --max-width: 1200px;
-  --container-padding: 1rem;
+  max-width: 1080px;
 
-  width: min(var(--max-width), 100% - (var(--container-padding) * 2)) !important;
+  // --max-width: 1080px;
+  // --container-padding: 1rem;
+
+
+  // width: min(var(--max-width), 100% - (var(--container-padding) * 2)) !important;
   margin-inline: auto;
 }
 
@@ -38,14 +41,14 @@
   }
 }
 
-.col-1{
-  @include breakpoint-down(lg){
+.col-1 {
+  @include breakpoint-down(lg) {
     order: 1;
   }
 }
 
-.col-2{
-  @include breakpoint-down(lg){
+.col-2 {
+  @include breakpoint-down(lg) {
     order: 2;
   }
 }

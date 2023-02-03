@@ -1,18 +1,25 @@
-@use '/src/sass/abstracts/'as *;
-@use '/src/sass/base/'as *;
+@use '/src/sass/abstracts/' as *;
+@use '/src/sass/base/' as *;
 
 // paddings
 
-.p-400{
+.p-400 {
     padding: 1rem;
 }
-.py-200{
+
+.py-200 {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
-    @include breakpoint(md){
+
+    @include breakpoint(md) {
         padding-top: 1rem !important;
         padding-bottom: 1rem !important;
     }
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .px-450 {
@@ -23,4 +30,9 @@
 
 .pb-400 {
     padding-bottom: 1rem;
+}
+
+// MARGINS
+.mx-auto {
+    margin-inline: auto;
 }
