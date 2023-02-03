@@ -1,9 +1,17 @@
-@use '/src/sass/abstracts/'as *;
-@use '/src/sass/base/'as *;
+@use '/src/sass/abstracts/' as *;
+@use '/src/sass/base/' as *;
 
 // Font Sizes
 
-.fs-400{
+.fs-275 {
+  font-size: $fs-275;
+}
+
+.fs-300 {
+  font-size: $fs-300;
+}
+
+.fs-400 {
   font-size: $fs-400;
 }
 
@@ -34,7 +42,7 @@
 
 // Weights
 
-.fw-regular{
+.fw-regular {
   font-weight: $fw-regular;
 }
 
@@ -70,14 +78,18 @@
 
 // Font Family
 
-// .ff-primary{
-//   font-family: $ff-primary;
-// }
+.ff-primary {
+  font-family: $ff-primary;
+}
 
 // .ff-accent{
 //   font-family: $ff-accent;
 // }
 
+// LINE HEIGHTS
+.lh-1-25 {
+  line-height: 1.25;
+}
 
 // .span-highlight{
 //   span{
@@ -110,6 +122,6 @@
 // }
 
 // MISC
-.sup{
+.sup {
   font-size: 0.75rem;
 }
