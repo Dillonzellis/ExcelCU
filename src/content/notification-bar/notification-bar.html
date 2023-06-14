@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/GBD_Theme/dist/main.css" />
-    <script src="./notif.js"></script>
+
     <title>Document</title>
   </head>
   <style>
@@ -14,10 +14,14 @@
       margin: 0;
       padding: 0;
     }
+
+    .hidden {
+      display: none;
+    }
   </style>
 
   <body>
-    <div class="notif item1" style="background-color: #26a1c5">
+    <!-- <div class="notif item1" style="background-color: #26a1c5">
       <div class="wrapper">
         <strong
           >We look forward to seeing you at our Annual Meeting, Thursday, March
@@ -79,27 +83,29 @@
           served.
         </strong>
       </div>
-    </div>
+    </div> -->
 
     <div style="min-height: 500px"></div>
 
-    <div class="current-notifs">
+    <div id="current-notifs" class="hidden">
       <div
-        class="notif item1"
-        style="background: rgb(149, 0, 0); border-bottom: 2px solid white"
+        class="notif"
+        style="
+          border-bottom: 2px solid white;
+          background: rgb(1, 1, 1);
+          background: radial-gradient(
+            circle,
+            rgba(1, 1, 1, 1) 51%,
+            rgba(138, 2, 2, 1) 72%,
+            rgba(219, 139, 1, 1) 86%,
+            rgba(1, 83, 43, 1) 95%
+          );
+        "
       >
         <div class="wrapper">
           <strong
-            >FINAL SCHOLARSHIP APPLICATIONS accepted MAY 25. HURRY TO APPLY
-            ONLINE.
-          </strong>
-        </div>
-      </div>
-      <div class="notif item2" style="border-bottom: 2px solid white">
-        <div class="wrapper">
-          <strong
-            >We will be closed Memorial Day, Monday, May 29 in honor of those
-            who served.
+            >Please mark your calendar. We will be closed Juneteenth, Monday,
+            June 19.
           </strong>
         </div>
       </div>
@@ -110,14 +116,14 @@
       >
         <div class="wrapper">
           <strong
-            >MIDTOWN LOCATION will be closed, Wednesday, May 31. We apologize
+            >Our Midtown Branch will be closed Wednesday, June 21. We apologize
             for any inconvenience.
           </strong>
         </div>
       </div>
     </div>
 
-    <div>
+    <!-- <div>
       <div>CLosed</div>
       <img
         style="width: 100%; object-fit: contain; height: 200px"
@@ -159,6 +165,16 @@
           for any inconvenience.
         </strong>
       </div>
-    </div>
+    </div> -->
+
+    <script>
+      const currentDate = new Date();
+      const endDate = new Date("June 19, 2023 23:59:59");
+
+      if (currentDate <= endDate) {
+        const targetElement = document.getElementById("current-notifs");
+        targetElement.classList.toggle("hidden");
+      }
+    </script>
   </body>
 </html>

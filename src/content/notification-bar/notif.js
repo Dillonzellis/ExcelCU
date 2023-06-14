@@ -1,21 +1,12 @@
-// const notifBanner1 = document.getElementById("banner1");
+// Get the current date
+var currentDate = new Date();
 
-// de notif script
+// Define the end date (June 20th, 2023)
+var endDate = new Date("June 19, 2023 23:59:59");
 
-document.addEventListener(
-  "DOMContentLoaded",
-  function () {
-    function timeForBanner() {
-      document.getElementById("banner1").style.display = "block";
-      document.getElementById("banner1").classList.add("slide-down");
-      document.getElementById("banner2").style.display = "block";
-      document.getElementById("banner2").classList.add("slide-down");
-    }
-
-    const timeFilter = new Date("May 10, 2024 01:00:00 AM").getTime(),
-      currentTime = new Date().getTime(),
-      subtractMilliSecondsValue = timeFilter - currentTime;
-    setTimeout(timeForBanner, subtractMilliSecondsValue);
-  },
-  false
-);
+// Check if the current date is before or equal to the end date
+if (currentDate <= endDate) {
+  // Add the class "hidden" to the element with ID "targetElement"
+  const targetElement = document.getElementById("targetElement");
+  targetElement.classList.add("block");
+}
